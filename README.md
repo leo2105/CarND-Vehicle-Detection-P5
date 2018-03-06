@@ -90,10 +90,13 @@ The algorithm is restringed between 400 and 560 height. It is waste of time If I
 In order to optimize the performance I change to YCrCb 3-channel HOG features and using heat map to avoid false positives.
 
 In this image we can see a detector that does not work well.
+
 ![alt text][image8]
 
 In this image, the detector inside of the pipeline was improved avoiding false positives and combining boxes.
+
 ![alt text][image7]
+
 ---
 
 ### Video Implementation
